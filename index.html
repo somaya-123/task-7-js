@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="studentForm">
+            <h2>Student Data</h2>
+            <input type="text" id="studentName" placeholder="Student Name">
+            <input type="number" id="studentAge" placeholder="Student Age">
+            <input type="text" id="studentCourse" placeholder="Course Name">
+            <input type="number" id="studentGrade" placeholder="Student Grade">
+            <button type="submit">Add Student</button>
+        </form>
+
+        <p id="error" class="error-msg"></p>
+
+        <div id="studentsContainer" class="cards-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
